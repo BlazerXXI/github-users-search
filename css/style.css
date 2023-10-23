@@ -16,7 +16,7 @@ html {
 	font-family: sans-serif;
 	color: var(--gray);
 	position: relative;
-	font-size: 14px;
+	font-size: 16px;
 	background: var(--bg-page);
 }
 
@@ -47,7 +47,7 @@ h1 {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font-size: 0.88rem;
+	font-size: 1.5rem;
 }
 
 .container {
@@ -93,10 +93,10 @@ h1 {
 }
 .main__button:hover {
 	border: var(--gray);
-	transform: scale(1.05);
+	transform: scale(1.01);
 }
 .main__button:active {
-	transform: scale(0.9);
+	transform: scale(0.96);
 }
 .main__result {
 }
@@ -148,10 +148,7 @@ h1 {
 	border-radius: 10px;
 }
 .main__repos__list > *:hover {
-	transform: scale(1.1);
-}
-.main__repos__list > *:active {
-	transform: scale(0.9);
+	transform: scale(1.01);
 }
 
 .main__user {
